@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_height="80dp" >
+
+        <TextView
+            android:id="@+id/news_listview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/news_listview_time"
+            android:layout_marginTop="15dp"
+            android:maxLines="2"
+            android:text="工作"
+            android:textColor="#313233"
+            android:textSize="16sp" />
+        
+        <TextView
+            android:id="@+id/news_listview_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="7dp"
+            android:textColor="#7A7C80"
+            android:text="地址"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/news_listview_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/news_listview_source"
+            android:text="公司"
+            android:textColor="#7A7C80"
+            android:textSize="12sp" />
+
+    
+    </RelativeLayout>
+
+</RelativeLayout>

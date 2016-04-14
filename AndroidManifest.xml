@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.job"
+    android:versionCode="1"
+    android:versionName="1.0" >
+<uses-permission android:name="android.permission.INTERNET" />
+
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+		android:name="com.job.app.NowUser"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.job.view.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+     <!--    用户端 -->
+          <activity android:name="com.job.view.showwork_style"></activity>
+	   <activity android:name="com.job.view.Search"></activity>
+  		<activity android:name="com.job.view.MainActivity"></activity> 
+         <activity android:name="com.job.view.RegisterActivity"></activity>
+        <activity android:name="com.job.view.Activity1"></activity>
+        <activity android:name="com.job.view.Activity2"></activity>
+        <activity android:name="com.job.view.Activity3"></activity>
+        <activity android:name="com.job.view.Recruitment"></activity>
+		<activity android:name="com.job.view.collection"></activity>
+		<activity android:name="com.job.view.feedback"></activity>
+		<activity android:name="com.job.view.ChooseHr"></activity>
+		<activity android:name="com.job.view.ChangePassword"></activity>
+		<activity android:name="com.job.view.me"></activity>
+		<activity android:name="com.job.view.moresetting"></activity>
+		<activity android:name="com.job.view.news"></activity>
+		<activity android:name="com.job.view.Findpw"></activity>
+		<activity android:name="com.job.view.resumemanagement"></activity>
+		<activity android:name="com.job.view.newhr"></activity>
+		<activity android:name="com.job.view.showwork"></activity>
+		<activity android:name="com.job.view.showhr"></activity>
+		<!--    企业端 -->
+		<activity android:name="com.job.view_en.showwork_style_en"></activity>
+  		<activity android:name="com.job.view_en.MainActivity_en"></activity> 
+        <activity android:name="com.job.view_en.RegisterActivity"></activity>
+        <activity android:name="com.job.view_en.Activity1_en"></activity>
+        <activity android:name="com.job.view_en.Activity2_en"></activity>
+        <activity android:name="com.job.view_en.Activity3_en"></activity>
+        <activity android:name="com.job.view_en.Recruitment"></activity>
+		<activity android:name="com.job.view_en.collection_en"></activity>
+		<activity android:name="com.job.view_en.feedback_en"></activity>
+		<activity android:name="com.job.view_en.ChooseHr_en"></activity>
+		<activity android:name="com.job.view_en.ChangePassword_en"></activity>
+		<activity android:name="com.job.view_en.hr_showstyle"></activity>
+		<activity android:name="com.job.view_en.me"></activity>
+		<activity android:name="com.job.view_en.moresetting_en"></activity>
+		<activity android:name="com.job.view_en.resumemanagement_en"></activity>
+		<activity android:name="com.job.view_en.newhr_en"></activity>
+		<activity android:name="com.job.view_en.hr_style"></activity>
+		<activity android:name="com.job.view_en.showwork_en"></activity>
+		 <activity android:name="com.job.view_en.resumetochoose_en"></activity>  
+  
+
+    </application>
+
+</manifest>

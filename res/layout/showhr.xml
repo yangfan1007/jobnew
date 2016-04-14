@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:background="#EEEEEE" >
+   <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="#F5F7F6" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+
+        <ImageButton
+        android:background="#00000000" 
+            android:id="@+id/newhr_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="简历"
+            android:textColor="#070707"
+            android:textSize="20sp" />
+    </RelativeLayout>
+        <ScrollView android:layout_marginBottom="50dip"
+             android:id="@+id/ScrollView01" 
+             android:layout_height="wrap_content"
+              android:layout_width="fill_parent">  
+             <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+ 	    
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#87DAB1"
+            android:gravity="center"
+            android:text="姓名"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/hr_username"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:ems="10"
+            android:inputType="text"
+            android:lines="2"
+            android:paddingLeft="12.0dp"
+            android:textSize="14sp"
+            android:typeface="monospace" >
+
+            <requestFocus />
+        </TextView>
+    </LinearLayout>
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+/>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_sex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#87DAB1"
+            android:gravity="center"
+            android:text="性别"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/hr_sex"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:ems="10"
+            android:inputType="text"
+            android:lines="2"
+            android:paddingLeft="12.0dp"
+            android:textSize="14sp"
+            android:typeface="monospace" >
+
+        </TextView>
+    </LinearLayout>
+      <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ />
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+    		android:id="@+id/tv_birth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#87DAB1"
+            android:gravity="center"
+            android:text="出生年月"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/hr_birth"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:ems="10"
+            android:inputType="text"
+            android:lines="2"
+            android:paddingLeft="12.0dp"
+            android:textSize="14sp"
+            android:typeface="monospace" >
+
+            <requestFocus />
+        </TextView>
+    </LinearLayout>
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_po"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#87DAB1"
+            android:gravity="center"
+            android:text="政治面貌"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/hr_po"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:ems="10"
+            android:inputType="text"
+            android:lines="2"
+            android:paddingLeft="12.0dp"
+            android:textSize="14sp"
+            android:typeface="monospace" >
+
+            <requestFocus />
+        </TextView>
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+			android:id="@+id/tv_elevel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#87DAB1"
+            android:gravity="center"
+            android:text="英语等级"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/hr_elevel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:ems="10"
+            android:inputType="text"
+            android:lines="2"
+            android:paddingLeft="12.0dp"
+            android:textSize="14sp"
+            android:typeface="monospace" >
+
+            <requestFocus />
+        </TextView>
+     
+  
+</LinearLayout>
+<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+             />
+<!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_degree"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#87DAB1"
+            android:gravity="center"
+            android:text="学历 学位 "
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/hr_degree"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:ems="10"
+            android:inputType="text"
+            android:lines="2"
+            android:paddingLeft="12.0dp"
+            android:textSize="14sp"
+            android:typeface="monospace" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+      <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ /> -->
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_profession"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#87DAB1"
+            android:gravity="center"
+            android:text="专业 "
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/hr_profession"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:ems="10"
+            android:inputType="text"
+            android:lines="2"
+            android:paddingLeft="12.0dp"
+            android:textSize="14sp"
+            android:typeface="monospace" >
+
+            <requestFocus />
+        </TextView>
+    </LinearLayout>
+      <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ />
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_experience"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#87DAB1"
+            android:gravity="center"
+            android:text="工作 经历 "
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/hr_experience"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:ems="10"
+            android:inputType="text"
+            android:lines="2"
+            android:paddingLeft="12.0dp"
+            android:textSize="14sp"
+            android:typeface="monospace" >
+
+            <requestFocus />
+        </TextView>
+    </LinearLayout>
+      <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ />
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_school"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#87DAB1"
+            android:gravity="center"
+            android:text="毕业 学校 "
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/hr_school"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:ems="10"
+            android:inputType="text"
+            android:lines="2"
+            android:paddingLeft="12.0dp"
+            android:textSize="14sp"
+            android:typeface="monospace" >
+
+            <requestFocus />
+        </TextView>
+    </LinearLayout>
+      <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ />
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="#87DAB1"
+            android:gravity="center"
+            android:text="联系电话 "
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/hr_photo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:ems="10"
+            android:inputType="text"
+            android:lines="2"
+            android:paddingLeft="12.0dp"
+            android:textSize="14sp"
+            android:typeface="monospace" >
+
+            <requestFocus />
+        </TextView>
+    </LinearLayout>
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+ />	
+ 
+          
+  
+ 
+
+    </LinearLayout>
+    
+     </ScrollView>
+
+</LinearLayout>

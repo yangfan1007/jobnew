@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<RelativeLayout
+    android:id="@+id/layout_top"
+    android:layout_width="match_parent"
+    android:layout_height="40dip"
+    android:background="#F5F7F6" >
+
+    <ImageButton
+        android:background="#00000000" 
+        android:id="@+id/showwork_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:clickable="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#070707"
+        android:textSize="20sp" />
+  <ImageButton
+        android:background="#00000000" 
+        android:id="@+id/btn_care"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:src="@drawable/ic_care" />
+   <!--  <Button
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"     
+        android:src="@drawable/button_selector" /> -->
+</RelativeLayout>
+
+<TextView
+    android:id="@+id/ViewH"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.19"
+    android:gravity="center"
+    android:textColor="#000000"
+    android:text="123"
+    android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/ViewM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:gravity="center"
+     	android:textColor="#7A7C80"
+        android:textSize="12sp"
+     />
+
+    <TextView
+        android:id="@+id/ViewD"
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:textColor="#7A7C80"
+        android:textSize="12sp"/>
+
+    <Button
+        android:id="@+id/bt_sendnew"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="投递简历" />
+
+</LinearLayout>
